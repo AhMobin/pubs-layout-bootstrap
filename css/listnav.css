@@ -1,0 +1,60 @@
+.listNav,.ln-letters{
+    overflow:hidden;
+}
+
+.listNavHide{
+    display:none;
+}
+
+.listNavShow{
+    display:list-item;
+    margin-right: 20px;
+    text-transform: uppercase;
+    /*font-size: 16px;*/
+    /*font-family: "Montserrat", sans-serif;*/
+}
+
+.letterCountShow{
+    display:block;
+}
+
+.ln-letters a{
+    /*font-size:0.9em;*/
+    display:block;
+    float:left;
+    padding:2px 6px;
+    /*border:1px solid silver;*/
+    border-right:none;
+    text-decoration:none;
+
+
+    color:#EC6058;
+    margin-right: 20px;
+    text-transform: uppercase;
+    /*font-size: 16px;*/
+    /*font-family: "Montserrat", sans-serif;*/
+}
+
+.ln-letters .ln-last{
+    /*border-right:1px solid silver;*/
+}
+
+.ln-letters a:hover,.ln-letters .ln-selected{
+    background-color:#eaeaea;
+}
+
+.ln-letters .ln-disabled{
+    color:#ccc;
+}
+
+.ln-letter-count{
+    position:absolute;
+    top:0;
+    left:0;
+    width:20px;
+    text-align:center;
+    font-size:0.8em;
+    line-height:1.35;
+    /*color:#336699;*/
+    color:#EC6058;
+}
