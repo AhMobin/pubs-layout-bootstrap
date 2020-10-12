@@ -10,8 +10,8 @@
     display:list-item;
     margin-right: 20px;
     text-transform: uppercase;
-    /*font-size: 16px;*/
-    /*font-family: "Montserrat", sans-serif;*/
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .letterCountShow{
@@ -31,8 +31,8 @@
     color:#EC6058;
     margin-right: 20px;
     text-transform: uppercase;
-    /*font-size: 16px;*/
-    /*font-family: "Montserrat", sans-serif;*/
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .ln-letters .ln-last{

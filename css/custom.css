@@ -325,3 +325,80 @@ body{
 .about_content .content .card-body p{
     text-align: center;
 }
+
+
+
+
+/* journal page */
+
+.categories_area{
+  margin-top: 60px;
+}
+
+.categories_area h6{
+    margin-left: 0;
+    padding-left: 0;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.categories_area ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.categories_area ul li{
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.categories_area ul li a{
+  color: #444;
+  transition: 1.2s;
+}
+
+.categories_area ul li a:hover{
+  color: #EC6058;
+  margin-left: 10px;
+  transition: 1.2s;
+}
+
+
+.products{
+    margin-top: 60px;
+    width: 100%;
+}
+
+
+.products ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.products ul li{
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.products .product_item{
+    margin-top: 25px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.products .product_item .product_thumb{
+    float: left;
+    max-width: 22%;
+}
+
+.products .product_item .product_desc{
+    float: right;
+    max-width: 76%;
+}
+
+.products .product_item .product_desc a{
+    color: #3F729B;
+    font-weight: bold;
+}
