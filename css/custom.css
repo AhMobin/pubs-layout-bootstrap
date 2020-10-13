@@ -6,7 +6,10 @@ body{
 
     font-family: 'Raleway', sans-serif;
     background-color: #efecec;
+    width: 100%;
 }
+
+
 
 
 .btn_color{
@@ -20,9 +23,12 @@ body{
 
 
 .header_social_icons li a{
-    color: #000;
+    color: #fff;
 }
 
+.top_header_btn li a{
+    border: 1px solid #f0f0f0;
+}
 
 .header_main_nav li{
     margin-right: 20px;
@@ -238,7 +244,7 @@ body{
   top: 0;
   right: 0;
   width: 100%;
-  background: rgba(0,0,0,0.3);
+  background: rgba(0,0,0,0.65);
 }
 
 
@@ -401,4 +407,107 @@ body{
 .products .product_item .product_desc a{
     color: #3F729B;
     font-weight: bold;
+}
+
+
+
+/*single journal page*/
+
+.journal_details{
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.journal_details h4{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.journal_details .journals_aim_scope{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.journal_details .journals_aim_scope h5{
+    font-weight: 600;
+}
+
+
+.journal_articles .table-ui{
+    border:none;
+}
+
+
+.journal_articles .card{
+      background-color: transparent;
+      margin-left: 0;
+      padding-left: 0;
+}
+
+.journal_articles .card .card-body{
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.journal_articles .card .card-header h5 span{
+    color: #444;
+    font-weight: bold;
+}
+
+.journal_articles ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.journal_articles ul li{
+  font-weight: bold;
+  border-bottom: 1px solid #EFECEC;
+  padding-top: 20px;
+
+}
+
+.journal_articles ul li a{
+      color: #3F729B;
+}
+.journal_articles ul li a h6{
+  font-weight: bold!important;
+}
+
+
+
+.journal_thumb{
+    margin-top: 30px;
+}
+
+.journal_thumb img{
+  float: right;
+  height: 250px;
+  overflow: hidden;
+}
+
+.journal_thumb{
+  clear: both;
+}
+
+.journal_sidebar_links ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.journal_sidebar_links ul li{
+    margin: 5px;
+    padding: 15px;
+    background-color: #3F72A4;
+    border-radius: 2px;
+}
+
+.journal_sidebar_links ul li a{
+    color: #fff;
+}
+
+.journal_sidebar_links ul li a:hover{
+    padding-left: 20px;
 }
