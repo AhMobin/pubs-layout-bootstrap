@@ -5,7 +5,7 @@ body{
       font-weight: 400;
 
     font-family: 'Raleway', sans-serif;
-    background-color: #efecec;
+    background-color: #fff;
     width: 100%;
 }
 
@@ -39,6 +39,13 @@ body{
 }
 
 
+.logo{
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 180px
+}
+
 .search{
    position: absolute;
    top: 50%;
@@ -51,7 +58,8 @@ body{
 
 .section_heading{
   text-transform: uppercase;
-  background-color: #4b89ac;
+  /*background-color: #4b89ac;*/
+  background-color: #5A4018;
   margin-top: 20px;
   text-align: center;
   padding: 10px;
@@ -62,6 +70,15 @@ body{
   border-bottom: 4px solid #70A005;*/
   /*border-bottom-right-radius: 30px;*/
   color: #fff;
+}
+
+.subscribe p{
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.subscribe form{
+  margin-bottom: 1rem;
 }
 
 
@@ -159,7 +176,8 @@ body{
 
 
 .recent_journals img{
-  margin: 15px;
+  margin: 10px;
+  margin-left: 0;
 }
 
 
@@ -171,6 +189,7 @@ body{
     background: #C8D6E5;
     padding-top: 40px;
     padding-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .footer h6{
@@ -207,6 +226,7 @@ body{
 .footer_logo{
     margin: 40px;
     width: 180px;
+    display: none;
 }
 
 
@@ -259,6 +279,10 @@ body{
     list-style-type: none;
 }
 
+.brd_crumb .brd_crumb_links ul li{
+    font-weight: 500;
+}
+
 .brd_crumb .brd_crumb_links ul li a{
   color: #fff;
 }
@@ -293,30 +317,40 @@ body{
 }
 
 .table_of_content .content_links ul li a{
+  font-weight: 500;
 }
 
 /* about page*/
 
 .about_content h3{
     text-align: center;
-    color: #222;
+    color: #1a936f;
     font-weight: bold;
-    margin-bottom: 25px;
+    /*padding-top: 15px;*/
+    padding-bottom: 15px;
+
 }
 
 
 .about_content .content{
-  padding: 25px;
-  margin-bottom: 40px;
+  padding: 15px;
+  /*margin-bottom: 10px;*/
 }
 
-.about_content .content:nth-child(even){
-    background-color: #f0f0f0;
+.content_sec{
+  text-align: justify;
+  background-color:#ecfffb!important;
+  padding: 20px!important;
+  border-radius: 5px;
 }
+
+
 
 .about_content .content .card-body{
-    margin: 5px;
-    border-bottom: 1px solid #e4fcf9;
+    margin-bottom: 30px;
+    margin-top: 0;
+    /*box-shadow: 3px 5px 4px #888888;*/
+    background-color: #ecfffb!important;
     height: 200px;
 }
 
@@ -330,6 +364,44 @@ body{
 
 .about_content .content .card-body p{
     text-align: center;
+}
+
+
+.product_cat_menu{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.product_cat_menu a{
+  background: #AA66CC;
+  padding: 15px;
+  width: 400px;
+  text-align: center;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  transition: 0.7s;
+}
+
+
+.product_cat_menu a:hover{
+  background-color: #EC6058;
+  transition: 0.7s;
+}
+
+
+
+.announcement_section .card-body span{
+    color: #3F729B;
+    font-weight: bold;
+}
+
+.announcement_section .card-body h5{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5px;
+    font-weight: 600;
 }
 
 
@@ -510,4 +582,141 @@ body{
 
 .journal_sidebar_links ul li a:hover{
     padding-left: 20px;
+}
+
+
+
+
+/* policy page*/
+
+.policy_content h3{
+    text-align: center;
+    color: #222;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+.policy_content .content{
+  padding: 15px;
+  margin-bottom: 10px;
+  line-height: 1.5rem;
+}
+
+.policy_content .content ul li{
+    line-height: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.policy_content .content h6{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.policy_content .content h5{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+
+
+/* contact us */
+
+.contact_us{
+  margin: 10px;
+  padding: 15px;
+  font-family: 'Montserrat',sans-serif;
+}
+
+
+.contact_us h4{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #3F729B;
+}
+
+.contact_us h5{
+  font-weight: 600;
+}
+
+
+.contact_us p a{
+  color: #EC6058;
+}
+
+
+.contact_details{
+    margin: 10px;
+  padding: 15px;
+}
+
+.contact_details h4{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #3F729B;
+}
+
+
+.contact_details h5 i{
+    margin-right: 5px;
+}
+
+
+.contact_details p{
+    margin-left: 30px;
+}
+
+.contact_details p a:hover{
+    margin-left: 10px;
+    color: #EC6058;
+}
+
+
+.contact_form{
+    margin-top: 20px;
+    background-color: #F5F5F5;
+    padding: 15px;
+}
+
+
+.contact_form h4{
+  font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    color: #3F729B;
+    text-align: center;
+}
+
+
+/* shebashop page */
+
+.sheba_shop h3{
+  padding-bottom: 5px;
+  border-bottom: 1px solid #D7D6D6;
+}
+
+
+
+.shop_product_items .item_desc_heading{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #D7D6D6;
+}
+
+
+
+
+
+
+/* services page */
+
+.publication_services ul li, ol li{
+  margin-bottom: 10px;
+}
+
+.publication_services li span{
+  font-weight: 600;
 }
