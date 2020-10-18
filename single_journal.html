@@ -2,6 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
     <title>SheBa Publication</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -11,12 +13,10 @@
   </head>
   <body>
 
-
-
-        <div class="container-fluid">
-        <div class="row">
+    <div class="container-fluid">
+        <div class="row header_section">
               <div class="col-md-12 col-lg-12">
-                <nav class="navbar navbar-expand-lg navbar-dark unique-color">
+                <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#008698">
                 <!-- <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #574b90;"> -->
                 <!-- <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #E2F3F5;"> -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
@@ -52,15 +52,15 @@
 
                   <ul class="navbar-nav ml-auto nav-flex-icons top_header_btn">
                       <li class="nav-item">
-                        <a href="" class="btn btn-white-outline btn-sm text-white" data-toggle="modal" data-target="#modalRegisterForm">Register</a>
+                        <a href="register.html" class="btn btn-white-outline btn-sm text-white">Register</a>
                       </li>
 
                       <li class="nav-item">
-                        <a href="" class="btn btn-white-outline btn-sm text-white" data-toggle="modal" data-target="#modalLoginForm">Login</a>
+                        <a href="login.html" class="btn btn-white-outline btn-sm text-white">Login</a>
                       </li>
 
                       <li class="nav-item">
-                          <a href="#" class="btn btn-white-outline btn-sm text-white">Join As Editor/Reviewer</a>
+                          <a href="join_us.html" class="btn btn-white-outline btn-sm text-white">Join As Editor/Reviewer</a>
                       </li>
                   </ul>
                 </div>
@@ -73,23 +73,26 @@
 
 
 
+
       <div class="container-fluid">
-        <div style="background-color: #e2f3f5" class="middle_header">
+        <!-- <div style="background-color: #e4fcf9" class="middle_header"> -->
+        <div style="background-color: #F2F2F2" class="middle_header">
+        <!-- <div style="background-color: #e2f3f5" class="middle_header"> -->
           
             <div class="row">
               <div class="col-md-6 col-lg-6 ml-auto">
-                  <img src="images/2.png" alt="" class="logo img-fluid">
+                  <a href="index.html"><img src="images/2.png" alt="" class="logo img-fluid"></a>
               </div>
 
               <!-- <div class="col-md-4 col-lg-4"></div> -->
 
               <div class="col-md-6 col-lg-6">
-                <div class="search">
+                <div class="search mt-2">
                   <form class="form-inline">
                     <div class="md-form my-0">
                       <input class="form-control mr-sm-2" type="text" placeholder="Search By Article Name" aria-label="Search">
                     </div>
-                    <button class="btn btn-secondary btn-md my-2 my-sm-0 ml-3" type="submit">Search</button>
+                    <button class="btn btn-secondary btn-sm my-2 my-sm-0 ml-3" type="submit">Search</button>
                   </form>
                 </div>
 
@@ -106,7 +109,8 @@
 <div class="container-fluid">
     <div class="row">
       <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-        <nav class="navbar navbar-expand-lg navbar-dark unique-color" style="min-height:60px; background-color:#70A005">
+        <!-- <nav class="navbar navbar-expand-lg navbar-dark unique-color" style="min-height:60px; background-color:#70A005"> -->
+          <nav class="navbar navbar-expand-lg navbar-dark" style="min-height:60px; background-color:#008698">
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -196,18 +200,18 @@
       <div class="row">
           <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
               <div class="brd_crumb">
-                <div class="brd_crumb_overlay">
-                  <h3>WJBB</h3>
-                  <div class="brd_crumb_links">
+                <div class="brd_crumb_overlay"></div>
+                 <div class="brd_crumb_links">
+                    <h3>WJBB</h3>
                       <ul>
                           <li><a href="">Home</a> > Products > <a href="">Journals</a> > <a href="">Open Access</a> > WJBB</li>
                       </ul>
                   </div>
-                </div>
               </div>
           </div>
       </div>
   </div>
+
 
 
     <div class="container my-4">
@@ -222,12 +226,11 @@
                   <div class="journals_aim_scope">
                       <h5>Aim and Scopes</h5>
 
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <p>World Journal of Biotechnology and Bioengineering (WJBB) is an international wide scope, peer-reviewed open access journal for the publication of original papers concerned with diverse aspects of bio-science application, technology and engineering.</p>
+                      
+                      <p>WJBB aims to present full-length original research articles and reviews, short communications, case studies and letters to editor in all areas of biotechnological and bioengineering research. It emphasizes understanding and advancing of the basics and applied biotechnology and bioengineering including any related economic, environmental and policy issues for the betterment of mankind.</p>
+
+                      <p>To get more about the journal, visit the journal site: <a href="https://w-jbb.com/" style="color: #EC6058; font-weight: 600">WJBB</a></p>
                   </div>
 
 
@@ -267,21 +270,13 @@
                                     <!--Grid column-->
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                      <ul>
-                                        <li>
+                                        <!-- <li>
                                             <p>Reaserch Paper</p>
                                             <a href=""><h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                             tempor incididunt ut labore et dolore magna aliqua.</h6></a>
                                             
                                             <p>Published: 10 Oct, 2020</p>
-                                        </li>
-
-                                        <li>
-                                            <p>Reaserch Paper</p>
-                                            <a href=""><h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua.</h6></a>
-                                            
-                                            <p>Published: 10 Oct, 2020</p>
-                                        </li>
+                                        </li> -->
                                      </ul>
                                     </div>
                                     <!--Grid column-->
@@ -320,21 +315,13 @@
                                     <!--Grid column-->
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                      <ul>
-                                        <li>
+                                        <!-- <li>
                                             <p>Reaserch Paper</p>
                                             <a href=""><h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                             tempor incididunt ut labore et dolore magna aliqua.</h6></a>
                                             
                                             <p>Published: 10 Oct, 2020</p>
-                                        </li>
-
-                                        <li>
-                                            <p>Reaserch Paper</p>
-                                            <a href=""><h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua.</h6></a>
-                                            
-                                            <p>Published: 10 Oct, 2020</p>
-                                        </li>
+                                        </li> -->
                                      </ul>
 
                                     </div>
@@ -374,21 +361,13 @@
                                     <!--Grid column-->
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                      <ul>
-                                        <li>
+                                        <!-- <li>
                                             <p>Reaserch Paper</p>
                                             <a href=""><h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                             tempor incididunt ut labore et dolore magna aliqua.</h6></a>
                                             
                                             <p>Published: 10 Oct, 2020</p>
-                                        </li>
-
-                                        <li>
-                                            <p>Reaserch Paper</p>
-                                            <a href=""><h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua.</h6></a>
-                                            
-                                            <p>Published: 10 Oct, 2020</p>
-                                        </li>
+                                        </li> -->
                                      </ul>
 
                                     </div>
@@ -428,21 +407,13 @@
                                     <!--Grid column-->
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                      <ul>
-                                        <li>
+                                        <!-- <li>
                                             <p>Reaserch Paper</p>
                                             <a href=""><h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                             tempor incididunt ut labore et dolore magna aliqua.</h6></a>
                                             
                                             <p>Published: 10 Oct, 2020</p>
-                                        </li>
-
-                                        <li>
-                                            <p>Reaserch Paper</p>
-                                            <a href=""><h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua.</h6></a>
-                                            
-                                            <p>Published: 10 Oct, 2020</p>
-                                        </li>
+                                        </li> -->
                                      </ul>
                                     </div>
                                     <!--Grid column-->
@@ -468,17 +439,18 @@
 
             <div class="col-md-4 col-lg-4 col-sm-10 col-xs-12">
                 <div class="journal_thumb">
-                    <img src="images\index3.gif" class="img-fluid">
+                    <img src="images\wjbb.webp" class="img-fluid">
                 </div>
 
 
                 <div class="journal_sidebar_links">
                     <ul>
-                        <li><a href="">Submit Article</a></li>
-                        <li><a href="">About The Journal</a></li>
-                        <li><a href="">Editorial Board</a></li>
-                        <li><a href="">Author Guideline</a></li>
-                        <li><a href="">Article Processing Charge</a></li>
+                        <!-- <li><a href="login.html">Submit Article</a></li> -->
+                        <li><a href="login.html">Submit Article</a></li>
+                        <li><a href="about_journal.html">About The Journal</a></li>
+                        <li><a href="editorial_board.html">Editorial Board</a></li>
+                        <li><a href="author_policy.html">Author Guideline</a></li>
+                        <li><a href="article_charge.html">Article Processing Charge</a></li>
                     </ul>
                 </div>
 
@@ -490,52 +462,55 @@
 
 
 
+
+<!-- footer area -->
+
 <div class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+            <div class="col-md-3 col-lg-3 col-sm-6 col-12">
                 <div class="address">
-                    <h6>INTERNATIONAL HEADQUARTERS</h6>
-                    <p style="color: #444!important; font-weight: 500; font-size: 17px">1318 Kossuth Street<br> Bridgeport, CT-06608<br>USA<br>
+                    <h6>International Office</h6>
+                    <p>1318 Kossuth Street<br> Bridgeport, CT-06608<br>USA<br>
                         <span>TEL: +1 203 956 7501</span><br>
                         <a href="mailto:info@shebapubs.com">info@shebapubs.com</a></p>
                 </div>
+              </div>
 
-                <div style="margin-top: 40px" class="address">
-                    <h6 style="color:#169669; margin-bottom: 15px">AFRO-ASIAN HEADQUARTERS</h6>
-                    <p style="color: #444!important; font-weight: 500; font-size: 17px">House–951, Road–14<br>Avenue–02, Mirpur DOHS<br>Mirpur-12, Dhaka-1216<br>Bangladesh<br>
+            <div class="col-md-3 col-lg-3 col-sm-6 col-12">
+                <div class="address">
+                    <h6>Bangladesh Office</h6>
+                    <p>House–951, Road–14<br>Avenue–02, Mirpur DOHS<br>Mirpur-12, Dhaka-1216<br>Bangladesh<br>
                         <span>Cell: +880 1824 570 690</span><br>
                         <a href="mailto:info@shebapubs.com">info@shebapubs.com</a></p>
                 </div>
-
             </div>
 
-            <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
-                <h6 style="color:#1B0093; margin-bottom: 15px">Resources</h6>
-                <ul style="list-style: none; text-decoration: none; margin-left: 0; padding-left: 0;">
+                        <div class="col-md-2 col-lg-2 col-sm-6 col-12">
+                <h6>Resources</h6>
+                <ul>
                     <li><a href="">Authors</a></li>
                     <li><a href="">Reviewers</a></li>
                     <li><a href="">Editors</a></li>
-                    
                 </ul>
+            </div>
 
-                <img src="images/2.png" class="img-fluid footer_logo">
-            </div>
-            <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
-                <h6 style="color:#1B0093; margin-bottom: 15px">Publishing Standards</h6>
-                <ul style="list-style: none; text-decoration: none; margin-left: 0; padding-left: 0;">
-                    <li><a href="">Our Policies</a></li>
-                    <li><a href="">Article Processing Charges</a></li>
-                    <li><a href="{{ route('term.services') }}">Terms of Services</a></li>
-                    <li><a href="{{ route('privacy.policy') }}">Privacy & Policy</a></li>
-                </ul>
-            </div>
-            <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
-                <h6 style="color:#1B0093; margin-bottom: 15px">Contact Us</h6>
-                <ul style="list-style: none; text-decoration: none; margin-left: 0; padding-left: 0;">
+            <div class="col-md-2 col-lg-2 col-sm-6 col-12">
+                <h6>Contact Us</h6>
+                <ul>
                     <li><a href=""><i class="fa fa-facebook"></i> Facebook</a></li>
                     <li><a href=""><i class="fa fa-twitter"></i> Twitter</a></li>
                     <li><a href=""><i class="fa fa-linkedin"></i> Linkedin</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-2 col-lg-2 col-sm-6 col-12">
+                <h6>Publishing Standards</h6>
+                <ul>
+                    <li><a href="">Our Policies</a></li>
+                    <li><a href="article_charge.html">Article Charges</a></li>
+                    <li><a href="">Terms of Services</a></li>
+                    <li><a href="">Privacy & Policy</a></li>
                 </ul>
             </div>
         </div>
@@ -555,128 +530,10 @@
 </div>
 
 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
 
-
-
-<!-- sign up/sign in modal -->
-
-<div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Sign In</h4>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body mx-3">
-        <div class="md-form mb-5">
-          <i class="fa fa-envelope prefix grey-text"></i>
-          <input type="email" id="defaultForm-email" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
-        </div>
-
-        <div class="md-form mb-4">
-          <i class="fa fa-lock prefix grey-text"></i>
-          <input type="password" id="defaultForm-pass" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
-        </div>
-
-      </div>
-      <div class="modal-footer d-flex justify-content-center">
-        <button class="btn btn-default">Login</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-<div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog modal-xl" role="document">
-    <div class="modal-content">
-      <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Sign Up</h4>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body mx-3">
-        <div class="row">
-            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-              <div class="md-form mb-5">
-          <i class="fa fa-user prefix grey-text"></i>
-          <input type="text" id="orangeForm-name" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="orangeForm-name">Your name</label>
-        </div>
-        <div class="md-form mb-5">
-          <i class="fa fa-envelope prefix grey-text"></i>
-          <input type="email" id="orangeForm-email" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="orangeForm-email">Your email</label>
-        </div>
-
-        <div class="md-form mb-4">
-          <i class="fa fa-lock prefix grey-text"></i>
-          <input type="password" id="orangeForm-pass" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="orangeForm-pass">Your password</label>
-        </div>
-
-        <div class="md-form mb-4">
-          <i class="fa fa-lock prefix grey-text"></i>
-          <input type="password" id="orangeForm-confirm-pass" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="orangeForm-confirm-pass">Confirm password</label>
-        </div>
-            </div>
-            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-              
-              <div class="md-form mb-4">
-                <i class="fa fa-briefcase prefix grey-text"></i>
-                <input type="text" id="orangeForm-profession" class="form-control validate">
-                <label data-error="wrong" data-success="right" for="orangeForm-profession">Profession</label>
-              </div>
-
-
-              <div class="md-form mb-4">
-                <i class="fa fa-university prefix grey-text"></i>
-                <input type="text" id="orangeForm-academic-qualification" class="form-control validate">
-                <label data-error="wrong" data-success="right" for="orangeForm-academic-qualification">Academic Qualification</label>
-              </div>
-
-              <div class="form-group">
-                <label for="registerAs">Register As</label><br>
-                <!-- Material unchecked -->
-                <div class="form-check">
-                    <input type="radio" class="form-check-input" id="materialUnchecked" name="user_type" value="author">
-                    <label class="form-check-label" for="materialUnchecked">Author</label>
-                </div>
-
-                <!-- Material checked -->
-                <div class="form-check">
-                    <input type="radio" class="form-check-input" id="materialChecked" name="user_type" checked value="customer">
-                    <label class="form-check-label" for="materialChecked">Customer</label>
-                </div>
-              </div>
-
-          </div>
-        </div>
-
-        </div>
-
-      <div class="modal-footer d-flex justify-content-center">
-        <button class="btn btn-deep-orange">Sign up</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/mdb.min.js"></script>
-    
   </body>
 </html>

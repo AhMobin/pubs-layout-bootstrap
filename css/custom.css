@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Raleway:wght@400;500;600;700;800&display=swap');
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body{
       /*font-family: 'Montserrat', sans-serif;*/
       font-weight: 400;
@@ -43,7 +48,7 @@ body{
   margin-left: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 180px
+  width: 150px
 }
 
 .search{
@@ -186,20 +191,46 @@ body{
 
 .footer{
     margin-top: 40px!important;
-    background: #C8D6E5;
+    background:#f2f2f2;
     padding-top: 40px;
     padding-bottom: 30px;
     font-family: 'Raleway', sans-serif;
+    position: relative;
+    /*color: #222;*/
 }
+
+
+
 
 .footer h6{
     margin-bottom: 15px;
     font-weight: bold;
-    color: #1B0093;
+    font-size: 15px;
+    color: #0B8457;
+}
+
+.footer .address p{
+  color: #222;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.footer .address p a{
+  color: #3F729B;
+  font-weight: 600;
+}
+
+
+.footer ul{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 .footer ul li{
     margin-bottom: 15px;
+    font-size: 14px;
 }
 
 .footer ul li:last-child{
@@ -208,38 +239,61 @@ body{
 
 .footer ul li a{
     transition: 1s;
-    color: #444;
+    color: #222;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .footer ul li a i{
     color: #169669;
     margin-right: 5px;
+    font-size: 14px;
 }
 
 
 .footer ul li a:hover{
     transition: 1s;
     color: #EC6058;
-    margin-left: 4px;
+    margin-left: 10px;
 }
 
-.footer_logo{
-    margin: 40px;
-    width: 180px;
-    display: none;
-}
 
 
 @media(min-width:577px) and (max-width:767px){
+  p, h1,h2,h3,h4,h5,h6, ul li{
+    text-align: center;
+  }
+
   .middle_header{
     padding-bottom: 60px
   }
+
+
+
+
 }
 
 @media(max-width: 576px){
+  p, h1,h2,h3,h4,h5,h6{
+    text-align: center!important;
+  }
+
   .middle_header{
     padding-bottom: 60px
   }
+
+}
+
+
+@media(max-width:667px){
+  p, h1,h2,h3,h4,h5,h6{
+    text-align: center;
+  }
+
+  .middle_header{
+    padding-bottom: 60px
+  }
+
 }
 
 
@@ -256,15 +310,25 @@ body{
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   position: relative;
+  height: 150px;
 }
 
 .brd_crumb_overlay{
-  padding-top: 20px;
+  /*! padding-top: 20px; */
   position: absolute;
   top: 0;
   right: 0;
   width: 100%;
   background: rgba(0,0,0,0.65);
+  height: 100%;
+}
+
+.brd_crumb_links{
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
@@ -351,14 +415,14 @@ body{
     margin-top: 0;
     /*box-shadow: 3px 5px 4px #888888;*/
     background-color: #ecfffb!important;
-    height: 200px;
+    min-height: 200px;
 }
 
 .about_content .content .card-body h5{
   font-family: 'Montserrat', sans-serif;
    text-align: center;
    font-weight: bold;
-   color: #3F729B;
+   color: #0c5f9e;
    padding: 10px; 
 }
 
@@ -386,6 +450,7 @@ body{
 }
 
 
+
 .product_cat_menu a:hover{
   background-color: #EC6058;
   transition: 0.7s;
@@ -393,15 +458,20 @@ body{
 
 
 
-.announcement_section .card-body span{
+.announcement_section a .card-body span{
     color: #3F729B;
     font-weight: bold;
 }
 
-.announcement_section .card-body h5{
+.announcement_section a .card-body h5{
     font-family: 'Raleway', sans-serif;
+    color: #222;
     margin-top: 5px;
     font-weight: 600;
+}
+
+.announcement_section a .card-body p{
+  color: #444;
 }
 
 
@@ -488,11 +558,13 @@ body{
 .journal_details{
   margin-top: 25px;
   margin-bottom: 30px;
+
 }
 
 .journal_details h4{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
+    color: #1A936F;
 }
 
 .journal_details .journals_aim_scope{
@@ -517,9 +589,11 @@ body{
 }
 
 .journal_articles .card .card-body{
-    padding-left: 0;
-    margin-left: 0;
+    padding: 0;
+    margin: 0;
 }
+
+
 
 .journal_articles .card .card-header h5 span{
     color: #444;
@@ -528,8 +602,9 @@ body{
 
 .journal_articles ul{
     list-style-type: none;
-    padding-left: 0;
-    margin-left: 0;
+    padding: 0;
+    margin: 0;
+
 }
 
 .journal_articles ul li{
@@ -578,11 +653,58 @@ body{
 
 .journal_sidebar_links ul li a{
     color: #fff;
+    transition: 1s;
 }
 
 .journal_sidebar_links ul li a:hover{
-    padding-left: 20px;
+    padding-left: 10px;
+    transition: 1s;
 }
+
+
+/* about the journal */
+
+.journal_areas{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.journal_areas li{
+    margin-top: 10px;
+}
+
+.journal_areas li a{
+    color: #444;
+    transition: 1.2s;
+}
+
+.journal_areas li a i{
+    color: #3F729B;
+    margin-right: 10px;
+}
+
+.journal_areas li a:hover{
+    background-color: #F7F6F6;
+    margin-left: 10px;
+    transition: 1.2s;
+}
+
+
+.article_charge{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.charge_note{
+  color: #3F72A4;
+  font-weight: 600;
+}
+
+
+.editorial_members h5{
+    margin-bottom: 20px
+}
+
 
 
 
@@ -656,10 +778,14 @@ body{
 .contact_details h4{
     font-family: 'Raleway',sans-serif;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     color: #3F729B;
 }
 
+
+.contact_details h5{
+  margin-bottom: 15px;
+}
 
 .contact_details h5 i{
     margin-right: 5px;
@@ -667,12 +793,19 @@ body{
 
 
 .contact_details p{
-    margin-left: 30px;
+    /*margin-left: 30px;*/
+}
+
+.contact_details p a{
+  transition: 1s;
+  color: #007065;
+  font-weight: bold;
 }
 
 .contact_details p a:hover{
     margin-left: 10px;
     color: #EC6058;
+    transition: 1s;
 }
 
 
@@ -698,14 +831,105 @@ body{
   border-bottom: 1px solid #D7D6D6;
 }
 
-
-
 .shop_product_items .item_desc_heading{
     margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px solid #D7D6D6;
+    display: flex;
+    justify-content: space-between;
 }
 
+
+.shop_product_items .item_desc_heading select{
+  width: 200px;
+  margin-bottom: 5px;
+  background-color: #F2F2F2;
+}
+
+
+
+/*product details page*/
+
+
+.product_name{
+  font-weight: 600;
+}
+
+
+.product_editor{
+  font-weight: 500;
+}
+
+
+.product_description{
+  margin-top: 20px;
+}
+
+.product_description h5{
+  font-weight: 500;
+}
+
+.product_pricing{
+  margin:auto;
+  width: 85%;
+
+}
+
+.product_pricing .card .card-body h6{
+  font-weight: 700;
+}
+
+.product_pricing .card{
+    background-color: #F0E9E9;
+}
+
+.product_pricing .card .card-body .pricing_table ul{
+  padding-left: 15px;
+}
+
+.product_pricing .card .card-body .pricing_table .price{
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+.product_pricing .card .card-body .pricing_table .price_btn{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.accepted_payments{
+  border-top: 1px solid #D8D8D8;
+  padding-top: 10px;
+  margin-top: 15px;
+}
+
+.accepted_payments img{
+  width: 35px;
+  margin-right: 5px;
+}
+
+
+/* subscription*/
+.subscribe_button{
+  padding: 15px;
+  margin-top: 15px;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  background: #0b2a41;
+  border-radius: 2px;
+  transition: 1.3s;
+  font-weight: bold;
+}
+
+.subscribe_button:hover{
+  transition: 1.3s;
+  background: #1B0093;
+  font-weight: bold;
+  color: #fff;
+}
 
 
 
@@ -719,4 +943,55 @@ body{
 
 .publication_services li span{
   font-weight: 600;
+}
+
+
+
+
+/* user login page*/
+
+.user_login_heading{
+  font-weight: 500;
+  text-align: center;
+}
+
+.register_link{
+  margin-top: 20px;
+}
+
+
+/* user register page */
+
+.user_register_heading{
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+
+
+/*join us page*/
+
+.join_us_form{
+  margin-top: 50px;
+    padding: 50px;
+    background-color: #f0e9e9;
+    border-radius: 5px;
+}
+
+
+.join_us_form h4{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.join_us_form label{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 600;
+  color: #0b8457;
+}
+
+.join_us_form label sup{
+  color: red;
 }
